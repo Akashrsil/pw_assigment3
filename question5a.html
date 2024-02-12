@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <h1>Sign Up Page using html</h1>
+    <form action="#">
+        <label for="first-name"> First Name:</label>
+        <input type="text" id="first-name" name="Name" pattern=".{3,}" required>
+        <br>
+        <label for="last-name"> Last Name:</label>
+        <input type="text" id="last-name" name="Name" pattern=".{3,}" required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" min="0" max="150" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" pattern=".{3,}" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password" pattern=".{3,}" required>
+        <br>
+        <label for="c-password">Confirm Password:</label>
+        <input type="text" id="c-password" name="c-password" pattern=".{3,}" required>
+        <br>
+        <b>Select your Gender </b>
+        <br>
+        <label for="button1"> Male </label>
+        <input type="radio" id="button1" name="button">
+        <br>
+        <label for="button2"> Female</label>
+        <input type="radio" id="button2" name="button">
+        <br>
+        <label for="button3"> Other </label>
+        <input type="radio" id="button3" name="button">
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+
+</html>
